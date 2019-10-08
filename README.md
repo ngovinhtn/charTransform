@@ -1,4 +1,4 @@
-# Transformer and recurrent Machine Translation systems for Japanese - Vietnamese 
+# Transformer and Recurrent Machine Translation systems for Japanese - Vietnamese 
 This repository contains all data and scripts for building a neural
 machine translation systems for Japanese - Vietnamese.
 
@@ -8,11 +8,11 @@ The data is used and collected from [Glosbe (https://glosbe.com/), TED talks, As
 
 For all experiments, the corpus was split into training, development (dev) and test (tst) set:
 
-| Data set    | Sentences | 
-| ----------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------
-| Training    | 339523   | 
-| Dev2010 |   558   |
-| Tst2010        |   1,215   |
+| Data set    | Sentences 
+| ----------- | --------- 
+| Training    | 339523
+| Dev2010     | 558
+| Tst2010     | 1,215
 
 
 # Citation
