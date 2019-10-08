@@ -17,8 +17,6 @@ For all experiments, the corpus was split into training, development (dev) and t
 # BLEU 
 |Models     | BLEU | RIRES 
 |-----------|-----------------------
-|Japanese --> Vietnamese
-|----------------------------------- 
 |Word2WordRecurrent |  11.05 | 0.663
 |Word2WordTransformer |  11.72  | 0.681
 |Char2CharRecurrent   |  10.06  | 0.657
