@@ -15,7 +15,7 @@ For all experiments, the corpus was split into training, development (dev) and t
 | Tst2010     | 1,215
 
 # BLEU 
-##Japnese -> Vietnamese 
+## Japnese -> Vietnamese 
 
 | Models     | BLEU | RIRES 
 | -----------| -----| -----------------
@@ -23,6 +23,15 @@ For all experiments, the corpus was split into training, development (dev) and t
 | Word2WordTransformer |  11.72  | 0.681
 | Char2CharRecurrent   |  10.06  | 0.657
 | Char2CharTransformer |  13.34  | 0.688 
+
+## Vietnamese  -> Japnese
+
+| Models     | BLEU | RIRES 
+| -----------| -----| -----------------
+| Word2WordRecurrent |  11.13 | 0.593
+| Word2WordTransformer |  13.07  | 0.679
+| Char2CharRecurrent   |  9.61  | 0.566
+| Char2CharTransformer |  15.05  | 0.691 
 
 # Citation
 
