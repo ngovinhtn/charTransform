@@ -1,0 +1,558 @@
+thứ mà tôi sẽ trình_bày đến các bạn trước , một_cách nhanh nhất có_thể là một công_trình cơ_bản , một công_nghệ mới mà chúng_tôi đã mang đến Microsoft trong cuộc sát nhập cách đây một năm . đây là Seadragon .
+là một môi_trường mà bạn có_thể tương_tác trong phạm_vi xa hoặc gần với nhiều loại dữ_liệu hình_ảnh .
+chúng_ta đang nhìn thấy rất nhiều GB ảnh điện_tử ở đây và gần như đang liên_tục thu_hẹp lại , xoay trái phải , xếp_đặt lại chúng bằng mọi cách mà_ta muốn Và không quan_trọng chuyện lượng thông_tin ta cần đến lớn bao_nhiêu , những bộ sưu_tập này và những hình_ảnh đó lớn bao_nhiêu .
+tất_cả đều là những hình_ảnh chụp từ máy_ảnh số , nhưng cái này chẳng_hạn , là bản quét từ Thư_viện Quốc_hội , và có khối_lượng khoảng 300 mega điểm_ảnh .
+những cũng chẳng có gì khác_biệt vì điều duy_nhất làm giới_hạn khả_năng của một hệ_thống như thế này chính là số điểm_ảnh trên màn_hình của bạn tại bất_cứ thời_điểm nào . kiến_trúc của nó cũng rất đa_dạng .
+đây là một quyển sách , ví_dụ về dữ_liệu không hình_ảnh .
+đây là quyển Ngôi nhà lạnh_lẽo của Dickens . mỗi cột là một chương .
+để chứng_minh với các bạn rằng đây chính là một văn_bản và không phải là hình_ảnh , chúng_ta có_thể làm như thế này , để thực_sự thấy rằng đây là phần trình_bày của một văn_bản ; nó không phải là một bức tranh .
+có_thể đây là một_cách để đọc một quyển sách điện_tử Tôi không khuyến_khích cách này .
+đây là một trường_hợp thực_tế hơn . đây là một_số báo của tờ The_Guardian .
+mỗi bức ảnh to bắt_đầu một mục .
+và nó thực_sự mang lại cho bạn sự hứng_khởi và vui_vẻ khi đọc một tờ báo thực_sự và là một phương_tiện đa_dạng xuyên suốt .
+chúng_tôi đã làm thay_đổi một_chút với góc của tờ báo The_Guardian này .
+chúng_tôi đã tạo ra một mẩu quảng_cáo với độ phân_giải cao - - cao hơn hẳn cái thường có ở quảng_cáo thông_thường - - và chúng_tôi đính thêm nhiều nội_dung khác .
+nếu bạn muốn xem các nét đặc_trưng của chiếc xe này , bạn có_thể xem ở đây .
+cũng có_thể xem các mẫu khác , thậm_chí cả đặc_tính kĩ_thuật .
+và điều này mang đến một_vài ý_tưởng về việc vượt qua giới_hạn trên màn_hình .
+chúng_tôi mong rằng điều này có nghĩa_là sẽ không còn các quảng_cáo dạng_pop - Up và các dạng tương_tự - - chúng không cần_thiết .
+tất_nhiên , bản_đồ là một trong những ứng_dụng thiết_yếu cho công_nghệ dạng này .
+và tôi sẽ không dành thời_gian nói nhiều về nói ngoài việc nói rằng chúng_tôi cũng đóng_góp vào lĩnh_vực này .
+nhưng đó là những con đường ở nước Mỹ được xếp chồng trên bản_đồ của NASA.
+nên hãy kéo lên , bây_giờ , xem một thứ khác .
+nó đã có ở trên trang_web và bạn có_thể tìm_hiểu thêm .
+đây là một dự_án tên gọi photosynth , kết_hợp hai công_nghệ khác nhau .
+một trong số đó là Seadragon và công_nghệ còn lại là một nghiên_cứu tầm nhìn điện_tử bởi Noah_Snavely , sinh_viên cao_học của trường đại_học Washington , đồng chỉ_đạo bởi Steve_Seitz ở UW và Rick_Szeliski ở Trung_tâm nghiên_cứu Microsoft . một sự hợp_tác rất tuyệt_vời .
+dự_án này đã có trên mạng . được cấp nguồn bởi Seadragon .
+bạn có_thể thấy khi chúng_tôi tiến_hành thử những góc nhìn này , khi chúng_tôi lướt qua các hình_ảnh và có sự trải nghiệm về sự phân_giải nhiều lớp .
+nhưng sự sắp đặp không_gian của các hình_ảnh ở đây rất có ý_nghĩa .
+các thuật_toán máy_tính đã xắp xếp những hình_ảnh này cùng nhau .
+và chúng tương_ứng với không_gian thật , trong đó những bức hình này - - tất_cả được chụp gần Grassi_Lakes ở Canadian_Rockies - - Giờ các bạn có_thể thấy ở đây những yếu_tố của slide - show được ổn_định hoặc toàn_bộ hình_ảnh , và những thứ này được liên_hệ không_gian với nhau .
+tôi không chắc mình có đủ thời_gian để trình_bày về các môi_trường khác .
+có một_vài môi_trường với nhiều không_gian hơn rất nhiều .
+tôi muốn đề_cập thẳng đến một trong những bộ dữ_liệu nguyên_bản của Noah - - có nguồn_gốc từ một mẫu nguyên_thuỷ của photosynth mà chúng_tôi bắt_đầu nghiên_cứu lần đầu_vào mùa hè - - để trình_bày cho các bạn những gì tôi nghĩ là điểm nút đằng sau công_nghệ này , công_nghệ photosynth . và nó thực_sự không rõ_rệt nếu chỉ nhìn vào những môi_trường được tạo_dựng trên trang_web .
+chúng_tôi đã phải lo_lắng về luật_sư và những điều khác .
+đây là bản tái_thiết nhà_thờ Notre_Dame đã được làm hoàn_toàn bằng máy_tính từ những hình_ảnh lấy từ Flickr . bạn chỉ cần đánh " Notre Dame " vào Flickr , và bạn có_thể thấy hình_ảnh những cậu sinh_viên mặc áo_phông , hoặc ảnh của trường và nhiều nữa . và mỗi hình_nón màu cam này báo_hiệu một hình_ảnh được coi là thuộc mẫu hình này .
+và đây là tất_cả những hình_ảnh lấy từ Flickr , và chúng được liên_kết không_gian theo cách này .
+chúng_ta chỉ cần tìm_hiểu chúng một_cách rất đơn_giản .
+.
+bạn biết đấy , tôi chưa từng nghĩ rằng cuối_cùng mình lại làm_việc ở Microsoft .
+và thật phấn_khởi khi được đón_nhận như thế này .
+.
+tôi nghĩ các bạn có_thể thấy ở đây có rất nhiều các loại máy_ảnh : nó có tất_cả từ máy_ảnh điện_thoại đến máy SLR chuyên_nghiệp , một_số lớn trong chúng được cài vào trong môi_trường này .
+và nếu có_thể , tôi sẽ tìm những loại kì_cục nhất .
+có rất nhiều loại được bít kín bởi các mặt , và nhiều hơn nữa .
+vài nơi trong này thực_ra đã có một series các bức ảnh - - chúng_ta bắt_đầu .
+đây là một bức ảnh của Notre_Dame được đăng_kí đúng .
+chúng_ta có_thể khám_phá bức ảnh này để có cái nhìn của môi_trường này .
+ý chính ở đây là chúng_ta có_thể làm những điều tương_tự với môi_trường xã_hội . giờ nó đang lấy dữ_liệu từ tất_cả mọi người - - từ một bộ_nhớ về hình_ảnh trái_đất và nối chúng lại với nhau .
+tất_cả những bức ảnh đó được nối lại với nhau và nó tạo nên những thứ còn tuyệt_vời hơn tất_cả các phần góp lại .
+giờ ta có một mẫu mô_phỏng toàn_bộ Trái_đất .
+hãy coi nó như bản thêm của chương_trình Trái_đất Ảo của Stepehn_Lawler .
+và đây là thứ mà càng trở_nên phức_tạp khi người_ta sử_dụng , và lợi_ích từ nó càng trở_nên lớn hơn cho người dùng .
+những bức ảnh của người dùng sẽ được đính với dữ_liệu dang meta khi một người khác nhập vào .
+nếu có ai đó có_thể tag tất_cả những vị_thánh này và điền thông_tin về họ , thì bức ảnh về nhà_thờ Notre_Dame của tôi sẽ cập_nhật những thông_tin này luôn , và tôi có_thể dùng nó như điểm vào để lướt vào không_gian đó , dữ_liệu đó , sử_dụng hình_ảnh của những người khác , và thực_hiện thao_tác xuyên mô_hình và xuyên mạng_lưới người xử_dụng .
+và tất_nhiên , sản_phẩm đi kèm sau đó là những mô_hình giàu tính hình_ảnh về những khu_vực thú_vị của thế_giới , được thu_thập không chỉ từ những ảnh chụp từ trên máy_bay hay vệ_tinh mà còn từ bộ_nhớ có tính_năng thu_thập dữ_liệu .
+cảm_ơn các bạn rất nhiều .
+Chris_Anderson : không biết tôi hiểu có đúng không ? rằng điều mà phần_mềm của ngài đang cho phép , đó là tại một thời_điểm nào đó , trong vòng vài năm tới , tất_cả những bức ảnh được chia_sẻ bởi bất_cứ ai trên thế_giới chúng sẽ được kết_nối với nhau ?
+BAA : đúng vậy . những gì phầm mềm này là để khám_phá .
+nó tạo nên những siêu kết_nối giữa những hình_ảnh .
+và nó làm điều đó dựa trên nội_dung bên trong bức ảnh .
+và điều đó làm_bạn thực_sự phấn_khích khi nghĩ đến những thông_tin phong_phú mà những hình_ảnh này có .
+chẳng_hạn khi bạn thực_hiện lệnh tìm_kiếm hình_ảnh trên mạng , bạn gõ vào những cụm từ , và những từ_khoá trên trang_web chứa rất nhiều thông_tin về bức ảnh đó .
+giờ , nếu bức ảnh đó được kết_nối với tất_cả những bức ảnh của bạn thì sao ?
+thì khối_lượng của liên_kết ngữ_nghĩa và khối_lượng thông_tin phong_phú kèm với nó là rất lớn . đây chính là hiệu_ứng mạng_lưới điển_hình .
+ca : Blaise , điều này thực_sự kì_diệu . xin chúc_mừng .
+BAA : cảm_ơn rất nhiều .
+tôi muốn mở_đầu với việc yêu_cầu bạn thử nghĩ_lại khi bạn còn là một đứa trẻ , đùa_nghịch với hình_khối .
+bạn biết cách chạm và cầm , đưa nó lên và di_chuyển nó , thực_sự bạn đã học cách nghĩ và giải_quyết vấn_đề thông_qua việc hiểu và điều_khiển mối liên_hệ trong không_gian .
+suy_luận không_gian được gắn_kết sâu_xa với cách chúng_ta hiểu về thế_giới rộng_lớn xung_quanh .
+bởi_thế , một nhà khoa_học máy_tính được truyền_cảm_hứng bởi việc tương_tác với vật_thể - - cùng với người hướng_dẫn Pattie , và bạn cùng làm là Jeevan_Kalanithi - - Tôi bắt_đầu tự hỏi - - điều gì sẽ xảy ra nếu chúng_ta sử_dụng máy_tính , thay_vì có con_trỏ chuột chạy vòng_quanh màn_hình_phẳng , điều gì sẽ xảy ra nếu chúng_ta có_thể cầm bẳng cả 2 tay và nắm lấy thông_tin hữu_hình , sắp_xếp chúng theo cách chúng_ta muốn ?
+câu hỏi này rất hấp_dẫn và chúng_tôi quyết_định tìm_kiếm câu trả_lời , bằng việc làm_nên Siftables .
+nói ngắn_gọn , Siftables là một máy_tính tác_động lẫn nhau có kích_thước bằng cái bánh_quy .
+chúng có_thể được di_chuyển bằng tay , chúng có_thể cảm_nhận lẫn nhau , cảm_nhận sự chuyển_động , và chúng có màn_hình cùng với sóng wireless .
+quan_trọng nhất , chúng là hữu_hình , như là viên gạch , bạn có_thể di_chuyển chúng bằng cách nắm lấy chúng .
+và Siftables là một ví_dụ cho hệ sinh_thái mới gồm những dụng_cụ để điều_khiển thông_tin số .
+và những công_cụ đó hữu_hình , nhận_biết sự chuyển_động , và nhận_biết lẫn nhau , và biết được cách mà_ta di_chuyển chúng , chúng_ta có_thể bắt_đầu khám_phá một_vài cách tương_tác mới .
+vậy , tôi sẽ bắt_đầu với một ví_dụ đơn_giản .
+Siftable được cấu_hình để hiển_thị video , và nếu tôi nghiêng nó theo một hướng , nó sẽ xoay video như thế này , nếu tôi nghiêng theo hướng khác , nó xoay ngược_lại .
+và những khối tương_tác này nhận_biết lẫn nhau .
+vậy nên nếu tôi đặt chúng cạnh nhau , chúng giao nhau .
+nếu chúng được đặt_vòng_quanh , chúng nhận biết_điều đó , có_thể có một_chút bối_rối .
+và chúng cảm_nhận được chuyển_động và độ nghiêng .
+một trong những hệ_quả thú_vị của tương_tác này , chúng_tôi nhận thấy là chúng_tôi có_thể dùng những cử_chỉ hằng ngày trên dữ_liệu , như là đổ màu giống như cách chúng_ta đổ nước .
+trong trường_hợp này , chúng_tôi lấy 3 Siftables được cấu_hình_như là những hũ màu và tôi có_thể dùng chúng để đổ màu vào miếng chính giữa , nơi mà màu_sắc hoà_trộn .
+nếu ta quá_tay , ta có_thể đổ màu ngược_lại .
+cũng có vài khả_năng là Siftables sẽ được dùng trong việc giáo_dục , như là ngôn_ngữ , toán_học và trò_chơi logic khi mà chúng_ta muốn cho mọi người khả_năng thử mọi thứ thật nhanh , và có kết_quả ngay lập_tức .
+vậy nên tôi - - Đây là chuỗi Fibonacci mà tôi tạo ra với phép_tính đơn_giản .
+và ở đây tôi có trò_chơi xếp chữ , hỗn_hợp giữa Scrabble và Boggle .
+cơ_bản là , trong mỗi vòng bạn có một ký_tự ngẫu_nhiên trên mỗi miếng Siftable , và khi bạn tạo thành từ , nó kiểm_tra từ đó trong từ_điển .
+sau khoảng 30 giây , ký_tự trên mỗi khối vuông thay_đổi , và bạn có một tập ký_tự mới và cố_gắng sắp thành những từ khác .
+cám_ơn .
+có một_vài trẻ_em đến tham_quan Media_Lab , và tôi thử để cho lũ trẻ chơi với Siftable , và quay video .
+bọn trẻ thật_sự thích nó .
+và , một trong những thú_vị của ứng_dụng này là bạn không cần phải đưa hướng_dẫn cho người chơi .
+mọi thứ bạn cần nói là " Ghétp từ , " và người chơi biết phải làm gì .
+đây là những người khác đang chơi thử .
+đó là đứa nhỏ nhất , ở phía dưới góc phải .
+rõ_ràng , tất_cả những gì bé đó muốn là xếp Siftables thành chồng .
+với bé đó , thì Siftables chỉ là những viên gạch .
+bây_giờ , đây là ứng_dụng tương_tác hoạt_hình .
+và chúng_tôi muốn xây_dựng công_cụ_học ngôn_ngữ .
+và đây là Felix .
+nó có_thể đem những ký_tự mới vào cảnh , bằng cách chỉ cần nhấc các khối Siftables có hình_nhân_vật trên đó khỏi bàn .
+ở đây , nó đang làm mặt_trời ló dạng .
+video : mặt_trời đang mọc .
+David_Merrill : bây_giờ nó bỏ một cái máy_kéo vào cảnh nền .
+video : máy_kéo_màu cam .
+làm tốt lắm ! yeah !
+và bằng cách lắc miếng Siftables và đặt chúng cạnh nhau nó có_thể làm các nhân_vật tương_tác - - Video : Woof !
+DM : sáng_tạo ra câu_chuyện .
+video : xin chào !
+DM : đây là một câu_chuyện mở , và anh ấy quyết_định xem nó mở như thế_nào .
+video : con mèo bay đi .
+DM : ví_dụ cuối_cùng mà tôi đưa ra hôm_nay là công_cụ cho sự phối_hợp_âm_nhạc và biểu_diễn trực_tiếp mà chúng_tôi vừa_mới làm , trong đó miếng Siftables hoạt_động như là âm_thanh như lead , bass và trống .
+mỗi loại có 4 bản khác nhau , bạn sẽ chọn những thứ bạn muốn dùng .
+bạn có_thể đưa những âm_thanh thành một chuỗi âm mà bạn có_thể ghép thành bản_nhạc mà bạn muốn .
+bạn đưa âm_thanh vào bằng cách đặt Siftable cạnh với chuỗi âm Siftable .
+và có hiệu_ứng bạn có_thể điều_khiển trực_tiếp , như là hồi_âm và bộ lọc .
+bạn có_thể gắn một âm_thanh bất_kỳ và nghiêng nó đi để điều_chỉnh .
+và sau đó , hiệu_ứng toàn_cục như_tốc độc và âm_lượng được áp_dụng cho toàn_bộ chuỗi âm_thanh .
+hãy thử xem .
+video : DM : chúng_ta sẽ bắt_đầu bằng việc đặt lead vào trong hai chuỗi Siftables , sắp_xếp chúng thành một chuỗi , mở_rộng nó , thêm một_chút lead .
+bây_giờ tôi đặt dây bass vào .
+video : DM : bây_giờ tôi sẽ đặt vài tiếng gõ vào .
+video : DM : và tôi sẽ gắn thêm bộ lọc cho trống , vì tôi có_thể điều_khiển hiệu_ứng_trực_tiếp .
+video : DM : tôi có_thể chỉnh tốc_độ của toàn chuỗi bằng cách nghiêng miếng chỉnh tốc_độ theo hướng này hay hướng ngược_lại Video : DM : và tôi sẽ gắn bộ lọc cho tiếng bass để thêm khả_năng truyền_cảm .
+video : DM : tôi có_thể sắp_xếp lại toàn chuỗi khi nó đang chơi .
+và tôi không cần phải lên kế_hoạch trước , nhưng tôi có_thể phát_triển từ từ , làm cho nó dài hơn , hoặc ngắn hơn .
+và bây_giờ , cuối_cùng , tôi có_thể làm chuỗi âm_thanh nhỏ dần bằng cách sử_dụng miếng chỉnh âm_thanh , nghiêng qua bên trái .
+cám_ơn .
+như là bạn đã thấy , đam_mê của tôi là tạo ra những mối giao_hoà giữa con_người , máy_tính sao cho phù_hợp với cách não và cơ_thể chúng_ta làm_việc .
+hôm_nay , tôi đã giới_thiệu với bạn một điểm trong không_gian thiết_kế mới , và một_vài ứng_dụng chúng_tôi đang làm để đưa nó ra khỏi phòng_thí_nghiệm .
+tôi muốn bạn nhớ rằng chúng_ta đang trên đỉnh của kỷ_nguyên công_cụ mới cho việc tương_tác với môi_trường số , mà sẽ mang nhiều thông_tin đến với thế_giới chúng_ta theo cách của chúng_ta .
+xin cám_ơn rất nhiều .
+tôi mong sẽ có cơ_hội nói_chuyện với tất_cả mọi người .
+tôi là một nhà_văn Viết sách là chuyên_môn của tôi , nhưng dĩ_nhiên nó còn hơn thế nữa Đó là tình_yêu và sự đam_mê của cả cuộc_đời tôi Và tôi không hi_vọng một ngày nào đó nó sẽ thay_đổi Nhưng gần đây đang có một_số chuyện khác_thường xảy ra trong cuộc_sống và sự_nghiệp của tôi đã khiến tôi phải điều_chỉnh lại tất_cả mối quan_hệ của mình với công_việc này Và điều khác_thường đó là việc gần đây tôi đã viết một quyển sách
+tên là " Ăn , Cầu_nguyện , Yêu " , khác hẵn với những quyển sách trước_đây của tôi , quyển sách , được xuất_bản vì lý_do nào đó , rồi trở_thành một hiện_tượng lớn , gây xúc_động mạnh_mẽ , và thành sách bestseller trên toàn thế_giới .
+và kết_quả của việc đó là tất_cả những nơi tôi đến bây_giờ mọi người đối_xử với tôi như tôi ... đang phải chịu số_phận rất bi_đát nghiêm_túc_đấy - rất bi_đát , rất thê_thảm !
+giống như giờ_đây , họ đến bên cạnh tôi , tất_cả đều rất lo_lắng , và họ hỏi , " Cô không sợ sao - không sợ là mình sẽ không_thể viết hay hơn được ?
+cô không sợ là cô sẽ cứ tiếp_tục viết suốt cả cuộc_đời mình và sẽ không bao_giờ tạo ra một quyển sách mà mọi người trên thế_giới này quan_tâm đến , thêm bất_kỳ một lần nào nữa ? "
+bạn biết đấy , Nhưng nó có_thể tệ hơn , ngoài trừ việc tôi tình_cờ nhớ lại cách đây hơn 20 năm , lúc tôi còn là đứa trẻ , khi tôi bắt_đầu nói với mọi người là tôi muốn trở_thành nhà_văn , tôi cũng gặp phải cùng một loại phản_ứng sợ_hãi này .
+và người_ta nói là , " cô không sợ sau_này sẽ cô sẽ không thành_công sao ?
+cô không sợ là sự xấu_hổ của việc bị thất_bại sẽ giết chết cô sao ?
+cô không sợ là cô sẽ phải dành cả cuộc_đời mình cho công_việc này mà sẽ không tạo ra được gì hết và rồi cô sẽ chết trong đống đổ_nát của những giấc mơ tan_vỡ với vị đắng của sự thất_bại ?
+bạn biết đấy , cũng giống như_vậy .
+câu trả_lời , một câu trả_lời ngắn cho tất_cả các câu hỏi ở trên , " Có " Có , tôi có sợ tất_cả những vấn_đề trên .
+và vẫn luôn_luôn như_vậy .
+và tôi còn sợ nhiều thứ khác bên cạnh đó nữa những thứ mà người_ta thậm_chí còn không_thể đoán được nữa .
+giống như tảo biển , và những thứ đáng sợ khác .
+nhưng , khi nói đến chuyện viết_lách vấn_đề mà tôi đang suy_nghĩ và đang tự hỏi gần đây , là tại_sao ?
+bạn biết đấy , nó có bình_thường không ?
+vấn_đề có logic không khi người_ta phải sợ_hãi công_việc mà họ cảm_thấy họ được sinh ra trên Trái_đất này để làm ?
+bạn biết đấy , có_điều gì đặc_trưng ở những công_việc liên_quan đến tính sáng_tạo lại khiến chúng_ta thực_sự lo_lắng về sức_khoẻ tinh_thần của nhau , trong khi những nghề khác lại không như_vậy ?
+ví_dụ như bố tôi là một kỹ_sư hoá_học và tôi hoàn_toàn không nhớ có bất_cứ 1 lần nào trong suốt 40 năm làm_việc có người hỏi ông liệu ông có sợ trở_thành một kỹ_sư hoá_học không .
+nó không phải là - công_việc kỹ_sư đang bị bí à , mọi việc thế_nào hả John ?
+mọi việc nó không như_vậy , đúng không ?
+nhưng công_bằng mà nói , những kỹ_sư hoá_học nằm trong 1 nhóm người trong suốt hằng mấy thế_kỷ qua , không có chút tiếng_tăm gì trong việc trở_thành những người nghiện rượu hay vui buồn thất_thường Chúng_tôi , những nhà_văn , thì lại có tiếng_tăm đó và không chỉ những nhà_văn thôi , mà dường_như những người làm công_việc sáng_tạo ở tất_cả mọi thể_loại , đều nổi_tiếng trong việc hoàn_toàn không ổn_định về mặt tinh_thần .
+và tất_cả những gì chúng_ta phải làm là nhìn vào số người chết khổng_lồ của những bộ_óc sáng_tạo thật_sự vĩ_đại , chỉ riêng trong thế_kỷ 20 thôi , những người đã chết trẻ và thường là do tự_sát , bạn biết đấy ?
+và thậm_chí đối_với những người không thực_sự tự_tử thì họ có vẻ cũng còn dang_dở trong công_việc của mình .
+Norman_Mailer , ngay trước khi chết , vào buổi phỏng_vấn cuối_cùng ông đã nói " Mỗi quyển sách mà tôi đã viết lại giết tôi thêm 1 chút " Thật là một câu nhận_xét khác_thường về sự_nghiệp cả đời của mình .
+nhưng chúng_ta thậm_chí còn không nháy_mắt khi nghe ai đó nói như_vậy vì chúng_ta vẫn nghe những thứ như_vậy từ rất lâu rồi và theo một_cách nào đó chúng_ta đã tiếp_thu và cùng nhau chấp_nhận là tính sáng_tạo và sự đau_khổ vốn_dĩ theo 1 cách nào đó đã gắn liền với nhau rồi và nghệ_thuật , cuối_cùng sẽ dẫn đến sự đau_khổ .
+và câu hỏi tôi muốn hỏi mọi người ở đây hôm_nay là các bạn có cảm_thấy bình_thường với quan_niệm này không ?
+bạn có cảm_thấy thoải_mái với nó không ?
+vì bạn đang nhìn nó thậm_chí từ cách xa 1 dặm và , bạn biết đấy , tôi hoàn_toàn không thoải_mái với giả_thuyết ấy chút nào hết .
+tôi nghĩ nó thật ghê_tởm .
+và tôi còn nghĩ nó thật nguy_hiểm nữa , và tôi không muốn thấy nó tồn_tại mãi cho đến những thế_kỷ sau .
+tôi nghĩ sẽ tốt hơn nếu chúng_ta khuyến_khích những tài_năng sáng_tạo sống Và tôi hoàn_toàn biết là , trong trường_hợp của tôi , nó sẽ rất nguy_hiểm nếu_như tôi rớt vào viễn_cảnh tăm_tối của giả_thuyết đó , đặc_biệt là giờ_đây khi tôi đang ở vị_trí hiện_tại trong sự_nghiệp của mình .
+bạn biết đấy , để xem nào , tôi còn khá trẻ , tôi chỉ mới vào_khoảng 40 tuổi .
+tôi có_thể còn có thêm 40 năm trong nghề nữa .
+và rất có_thể là bất_cứ những gì tôi viết từ thời_điểm này trở_đây sẽ bị cả_thể giới đánh_giá như một tác_phẩm đến sau sự thành_công kỳ_quặc của tác_phẩm vừa_rồi , đúng không ?
+tôi sẽ nói_thẳng ra , vì chúng_ta ở đây cũng gần như là bạn_bè rồi , rất có_thể thành_công vĩ_đại nhất của còn nằm phía sau tôi .
+Ôi chúa ơi , thật là một ý_nghĩ hay_ho phải không !
+nhưng bạn biết đấy , ý_nghĩ giống như_vậy cũng có_thể khiến người_ta bắt_đầu uống rượu gin lúc 9h sáng , và tôi không muốn mình như_vậy .
+tôi thích tiếp_tục làm công_việc mà mình yêu thích này hơn .
+và vì_thế , câu hỏi đặt ra là , làm_sao tôi làm được như_vậy ? !
+và rồi , vượt qua nhiều suy_nghĩ , có vẻ như điều tôi phải làm ngay bây_giờ , để được tiếp_tục sáng_tác , là phải tự tạo cho mình cấu_trúc tâm_lý để tự bảo_vệ , đúng không ?
+tôi phải tìm một_cách nào đó để tạo một khoảng cách an_toàn giữa tôi , một nhà_văn , với nỗi lo_sợ rất tự_nhiên của mình về viễn_cảnh nghề_nghiệp của tôi , từ bây_giờ trở đi .
+và , tôi đã cố_gắng tìm_kiếm những cách để thực_hiện việc đó suốt cả năm_ngoái Tôi đã tìm_kiếm xuyên thời_gian và đã cố_gắng tìm_kiếm trong những xã_hội khác để xem liệu họ có những ý_tưởng tốt hơn và lành_mạnh hơn những gì chúng_ta có về việc_làm cách nào để giúp_đỡ những con_người làm công_việc sáng_tạo ... kiểm_soát những rủi_ro cố_hữu về mặt tình_cảm của công_việc đó không .
+và cuộc nghiên_cứu đã dẫn tôi đến với Hi_Lạp và La_Mã cổ_đại Này , hãy đi cùng tôi , vì nó sẽ đi một vòng Nhưng , tại Hi_Lạp và La_Mã cổ_đại họ không tin là khả_năng sáng_tạo xuất_phát từ bản_thân con_người Họ tin là sự sáng_tạo là do những linh_hồn thiêng_liêng đã tìm đến con_người từ một nơi bí_ẩn nào đó ở rất xa , vì những lý_do cũng rất bí_ẩn và rất xa_xôi .
+người Hi_Lạp gọi những linh_hồn thiêng_liêng của sự sáng_tạo đó là " deamons " .
+Socrates , tin là ông có 1 daemon người đã truyền_đạt sự thông_thái cho ông ta từ xa .
+người La_Mã cũng có ý_nghĩ giống như_vậy , nhưng họ gọi linh_hồn của sự sáng_tạo đó là " Genius " .
+điều đó thật tuyệt , vì người La_Mã không thực_sự nghĩ là " Genius " là một cá_nhân đặc_biệt nào đó .
+họ tin " Genius " là một thực_thể linh_thiêng có phép màu , thực_chất đã sống trong những bức tường trong studio của những nghệ_sĩ , giống như Dobby trong ngôi nhà của người Elf , và họ sẽ bước ra và giúp_đỡ những nghề sĩ làm công_việc của mình một_cách vô_hình và tạo_hình cho tác_phẩm đó Thật tuyệt_vời - đó , chính đó là dạng khoảng_cách mà tôi đang nói tới - đó là cấu_trúc tâm_lý để tự bảo_vệ bản_thân khỏi kết_quả của công_việc của mình .
+và mọi người đều đã biết cách_thức nó hoạt_động rồi , đúng không ?
+như_vậy là những nghệ_sĩ cổ_đại đã được bảo_vệ khỏi một_số vấn_đề cố_hữu như việc quá yêu bản_thân mình , đúng không ?
+nếu công_việc của bạn quá tuyệt_vời , bạn không_thể dành hết phần công_lao , mọi người đều đã biết bạn được một linh_hồn linh_thiêng nào đó giúp_đỡ Và nếu công_việc của bạn thất_bại , cũng không hoàn_toàn do lỗi của bạn , bạn biết đấy !
+mọi người đều biết tài_năng của bạn bị mẻ .
+và đó là cách người_ta nghĩ về khả_năng sáng_tạo ở phương Tây trong suốt khoảng thời_gian rất dài .
+và rồi thời Phục_hưng đến và mọi thứ thay_đổi , chúng_ta có một ý_niệm rất lớn , và ý_niệm đó là hãy đặt cá_nhân con_người vào trung_tâm của vũ_trụ trên tất_cả Chúa_Trời và những bí_ẩn , và không còn vị_trí nào cho những sinh_vật thần_bí thường chuyển lời của những đấng linh_thiêng .
+và đó sự bắt_đầu của chủ_nghĩa nhân_văn lý_trí , và con_người bắt_đầu tin_tưởng rằng khả_năng sáng_tạo hoàn_toàn nằm trong tự bản_thân mỗi người Và lần đầu_tiên trong lịch_sử , bạn nghe mọi người nhận_xét về nghệ_sĩ này hoặc nghề sĩ kia " là " thiên_tài thay_vì là " có " một linh_hồn sáng_tạo " Genius " hỗ_trợ Và tôi phải nói với bạn điều này , tôi nghĩ đó là một sai_lầm nghiêm_trọng .
+bạn biết không , tôi nghĩ khi để ai đó , một cá_nhân nào đó tin_tưởng bản_thân mình là , bạn biết đấy , là bản_chất , là nguồn_gốc của tất_cả những bí_ẩn rất thần_thánh , và rất mơ_hồ đó là đã đặt 1 trách_nhiệm quá lớn lên tâm_lý rất mong_manh , rất con_người của cá_nhân họ .
+điều đó giống như đòi_hỏi một ai đó phải nuốt_chửng cả mặt_trời .
+điều đó hoàn_toàn bóp_méo cái tôi của họ , và nó tạo ra tất_cả những kỳ_vọng không kiểm_soát được về thành_tích của việc sáng_tạo .
+và tôi nghĩ áp_lực đó đã giết những nghệ_sĩ của chúng_ta trong_suốt 500 năm qua .
+và , nếu điều đó đúng , mà tôi nghĩ là nó đúng , thì câu hỏi sẽ trở_thành , bây_giờ thì sao ?
+chúng_ta có làm gì khác đi được không ?
+có_thể quay về với những khái_niệm cổ_xưa về mối quan_hệ giữa con_người và những sinh_vật kỳ_bí .
+có_thể không .
+có_thể chúng_ta không_thể đơn_giản xoá đi 500 năm những suy_nghĩ mang tính nhân_văn đó chỉ trong một buổi nói_chuyện dài 18 phút .
+có_thể cũng có_thể có người trong số khán_giả dưới kìa sẽ đặt những nghi_vấn khoa_học thật_sự chính_thống về khái_niệm những nàng tiên , họ theo người khác để mang đến sự thần_kỳ trong những dự_án của họ .
+có_lẽ , tôi sẽ không kéo bạn theo cùng tôi trong những suy_nghĩ này .
+nhưng một câu hỏi tôi muốn đề ra là , bạn biết đó , tại_sao không chứ ?
+tại_sao lại không nghĩ về nó như_vậy ?
+vì nó , đối_với tôi , cũng hay_ho như tất_cả những gì tôi đã từng nghe nhằm giải_thích cho sự điên_khùng khủng_khiếp của quá_trình sáng_tạo .
+một quá_trình , như bất_kỳ ai đã từng cố_gắng sáng_tạo ra một cái gì đó , có_thể là tất_cả mọi người ở đây , đều biết đó không phải luôn_luôn diễn ra một_cách rõ_ràng .
+và , thật_ra , nhiều lúc có_thể nói_thẳng ra là một quá_trình huyền_bí , siêu linh .
+gần đây tôi có những suy_nghĩ này khi tôi gặp một nhà_thơ tuyệt_vời người Mỹ_Ruth Stone , người hiện đang bước vào tuổi 90 , những bà đã là nhà_thơ trong suốt cuộc_đời và bà nói với tôi là khi bà lớn lên tại vùng quê Virginia , bà phải ra đồng làm_việc , và bà nói bà có_thể cảm_nhận thấy và có_thể nghe thấy 1 bài thơ xuất_phát từ khung_cảnh xung_quanh .
+và bà nói điều đó giống như một một chuỗi sấm chớp , giông tố Và nó sẽ đánh ập vào bà từ khoảng không kia Và bà cảm_thấy nó đang đến , vì nó sẽ làm rung_chuyển mặt_đất dưới chân bà .
+bà biết là khi đó chỉ có 1 việc duy_nhất để làm thôi , và đó chính là , theo lời bà , " chạy như chết . "
+và bà sẽ chạy như chết về nhà và bà để cho bài thơ này ruợt mình , và toàn_bộ vấn_đề khi đó là bà phải lấy một mảnh giấy và một cây_viết chì đủ nhanh để khi nó nổ sấm chớp xuyên qua bà , bà có_thể túm được nó và đặt nó vào một mảnh giấy .
+và những lần khác bà có_thể không đủ nhanh , vì_thế bà cứ chạy , cứ chạy và chạy , nhưng bà không về kịp đến nhà , bài thơ đến và bà để tuột mất nó và bà nói nó sẽ tiếp_tục bay qua không_gian như_thế , để tìm_kiếm , theo lời bà , là " những nhà_thơ khác . "
+và bà bắt_đầu ghi_chép lại lên mảnh giấy .
+và trong những lần như_vậy , bài thơ sẽ hiện ra trên giấy một_cách hoàn_hảo và nguyên_vẹn nhưng lại bị đảo_ngược , từ chữ cuối_cùng đến chữ đầu_tiên .
+vì_thế khi tôi nghe như_vậy tôi giống như ... điều đó thật huyền_bí , điều đó hoàn_toàn giống với quá_trình sáng_tác của tôi .
+nhưng đó không phải tất_cả quá_trình sáng_tác của tôi , tôi không phải cái ống dẫn !
+tôi là một người cứng_đầu , và cách tôi làm_việc là tôi phải thức dậy đúng giờ mỗi ngày , và đổ mồ_hôi và lao_động và trải qua nó một_cách vụng_về .
+nhưng thậm_chí tôi , với cá_tính ương_bướng của mình .
+tôi cũng phải xem_lại nó một_vài lần .
+và tôi tưởng_tượng là đa_số các bạn cũng phải làm như_vậy .
+bạn biết đấy , ngay cả tôi cũng có những ý_tưởng đến với mình từ những nguồn_gốc mà thật lòng tôi không_thể xác_định được .
+vậy thì đó là cái gì chứ ?
+và chúng_ta liên_hệ với nó như thế_nào khi nó không làm ta mất_trí , mà thật_ra lại có_thể giữ cho chúng_ta sáng_suốt ?
+và đối_với tôi , một ví_dụ gần đây nhất về việc đó là nhà_soạn nhạc Tom_Waits , người tôi đã có dịp phỏng_vấn vài năm trước cho 1 bài báo .
+và chúng_tôi cũng nói về vấn_đề này , và bạn biết đấy , Tom , trong hầu_hết cuộc_đời ông , ông là minh_chứng về một nghệ_sĩ đương_đại sống trong dày vò , đau_khổ , cố_gắng kềm_chế , kiểm_soát và chi_phối những sức_ép không_thể kiểm_soát được của sự sáng_tạo , những sức_ép hoàn_toàn chủ_quan .
+nhưng sau đó ông_già hơn , ông trở_nên bình_tĩnh hơn , và vào một ngày khi ông đang lái_xe trên xa_lộ tại Los_Angeles , ông bảo tôi , và đó là khi tất_cả mọi thứ đối_với ông thay_đổi Và khi ông đang chạy , bỗng_nhiên , ông nghe một đoạn giai_điệu nhỏ xuất_hiện trong đầu ông như cảm_hứng vẫn thường đến , trêu_ngươi và rất khó nắm giữ , và ông muốn đó , bạn biết đấy , nó hoàn_hảo , và ông mong_mỏi nó , nhưng ông lại không có cách nào để nắm lấy nó .
+ông không có giấy , không có bút cũng không có máy ghi_âm .
+vì_thế ông bắt_đầu cảm_thấy thất cả sự lo_lắng xưa cũ xuất_hiện trong mình giống như " Rồi tôi sẽ vuột mất nó , và sau đó tôi sẽ bị ám_ảnh bởi bài hát này mãi_mãi .
+tôi không đủ sức , tôi không_thể làm được " .
+và thay_vì kích_động , ông dừng lại .
+ông dừng toàn_bộ quá_trình suy_nghĩ đó và ông đã làm một việc lạ_thường .
+ông nhìn lên trời , và ông nói , " Xin_lỗi , mày không thấy tao đang lái_xe sao ? " .
+" nhìn tao có giống như tao có_thể viết nhạc ngay bây_giờ không ?
+nếu mày muốn ra_đời , thì hãy đến vào những lúc thích_hợp hơn khi tao có_thể chăm_sóc cho mày .
+còn nếu không , hôm_nay hãy đi làm_phiền người nào khác đi .
+đi làm_phiền Leonard_Cohen đi " .
+và sau đó thì toàn_bộ quá_trình làm_việc của ông thay_đổi .
+không phải công_việc , công_việc vẫn tăm_tối như trước giờ .
+ý_tưởng này , nó đã cứu sống tôi khi tôi đang viết " Ăn , Cần_nguyện , Yêu " giữa_chừng và tôi đã rơi vào một trong những ... giống như những cái hố của sự tuyệt_vọng nơi chúng_ta thường rơi vào khi chúng_ta đang cố_gắng làm gì đó nhưng kg được và bạn bắt_đầu nghĩ việc này sớm_muộn sẽ trở_thành 1 tai_hoạ , đây sẽ là một quyển sách tệ nhất từ trước tới giờ .
+không phải chỉ là dở ẹt thôi , mà là quyển sách tệ_hại nhất đã từng được viết Và tôi bắt_đầu nghĩ tôi nên từ_bỏ dự_án này .
+nhưng sau đó tôi nhớ đến việc Tom nói_chuyện với khoảng không trước mặt và tôi đã thử .
+vậy là tôi ngẩng mặt lên khỏi đống bản_thảo và tôi chỉ thẳng vào 1 góc trống của căn phòng .
+và tôi nói to : " mày , nghe này , tao và mày đều biết là nếu quyển sách này không thàng công đó không phải hoàn_toàn là lỗi của tao , đúng không ?
+vì mày có_thể thấy là tao đang đặt hết những gì tao có vào nó , Tao không còn gì hơn thế nữa .
+vậy nếu mày muốn nó hay hơn , thì mày nên xuất_hiện và làm phần việc của mày đi .
+OK . nhưng nếu mày không xuất_hiện , mày biết gì không , thật đáng chết .
+dù_sao tao cũng vẫn sẽ tiếp_tục viết vì đây là công_việc của tao .
+và hôm_nay tao muốn được ghi_nhận là đã hoàn_thành tốt phần công_việc của mình " .
+vì - - - cuối_cùng thì việc nó cũng thế này , OK - - hằng thế_kỷ trước , tại những sa_mạc vùng Bắc_Phi , người_ta đã từng tụ_tập lại để nhảy những điệu nhảy thần_thánh dưới ánh trăng liên_tục suốt hằng giờ liền , cho đến khi trời sáng .
+và chúng thật lộng_lẫy , vì tất_cả những vũ_công đều chuyên_nghiệp và họ đã thật tuyệt_vời , phải không ?
+nhưng , một hôm nào đó , rất hiếm_hoi , một điều kỳ_lạ sẽ xảy ra , và một trong những vũ_công đó trở_nên sáng chói .
+và tôi biết bạn hiểu tôi đang nói đến cái gì , vì tôi biết tất_cả các bạn đều đã thấy , vào một lúc_nào đó trong cuộc_sống của bạn , một màn trình_diễn như_vậy .
+giống như thời_gian dừng lại , và người vũ_công sẽ giống như vừa bước qua một cánh cửa nào đó anh ta hoàn_toàn không làm gì khác ngoài những gì trước giờ anh vẫn làm suốt 1000 đêm trước đó , nhưng rồi mọi thứ được sắp_đặt .
+và bỗng nhiễn , anh ta sẽ không bao_giờ còn là một người bình_thường nữa .
+anh ta được khai sáng , được tôn_sùng và được tung_hô như một vị_thánh .
+và hồi đó , khi điều này xảy ra , người_ta nhìn_nhận nó , bạn biết đấy , họ gọi nó bằng cái tên của nó .
+họ sẽ đặt bàn_tay của họ với nhau , và bắt_đầu cầu_kinh , " Thánh_Allah , Thánh_Allah , Thánh_Allah , Chúa_trời , Chúa_trời , Chúa_trời " .
+đó là Chúa , bạn biết đấy .
+một ghi_chú gây tò_mò thời cổ_đại nói rằng , khi người Marốc xâm_lược phía Bắc Tây_Ban Nha , họ mang theo phong_tục này của họ và cách phát_âm đã thay_đổi qua hàng mấy thế_kỷ .
+từ " Allah , Allah , Allah " thành " Ole , Ole , Ole " , tiếng gọi mà tôi vẫn còn được nghe trong những trận_đấu bò và những điệu nhảy flamenco Ở Tây_Ban Nha , khi một vũ_công làm được một điều gì đó màu_nhiệm , " Allah , Ole , Ole , Allah , hoàn_hảo , hoan_hô " , không_thể hiểu nổi , và nó đây rồi , chính sự hiện_thân của Chúa .
+đó là điều thật tuyệt_vời , vì chúng_ta cần nó .
+nhưng , vấn_đề rắc_rối xảy đến vào sáng hôm sau , đối_với chính anh_chàng vũ_công đó , khi anh ta thức dậy và phát_hiện ra bây_giờ là Thứ_ba , 11h sáng , và anh ta không còn là hiện_thân của Chúa nữa Anh ta một con_người đang già đi với đầu_gối đang rất đau , và có_thể anh ta sẽ không bao_giờ thành_công đến mức như_vậy nữa .
+và có_thể sẽ không bao_giờ có ai tụng_ca tên của Chúa khi anh nhảy nữa , và khi đó anh ta sẽ làm gì với phần đời còn lại của minh ?
+điều này thật khó_khăn .
+điều này cũng là một trong những sự thích_nghi đau_đớn nhất mà những người làm nghệ_thuật phải tập quen trong cuộc_đời nghệ_thuật của mình .
+nhưng có_lẽ nó không cần phải trở_thành một nổi thống_khổ như_vậy nếu_như , ngay từ đầu , bạn đã không tin những khía_cạnh đặc_biệt nào đó của bạn xuất_phát từ chính bản_thân bạn .
+có_lẽ nếu bạn chỉ xem chúng như một khoảng bạn vay từ một nguồn_gốc không_tưởng nào đó , và rồi một phần tinh_hoa của bạn phải được chuyển đi khi bạn hoàn_tất sứ_mệnh của mình để đến với một người khác .
+và , bạn biết đấy , nếu chúng_ta nghĩ về điều này như_vậy thì mọi thứ bắt_đầu thay_đổi .
+đây là cách tôi bắt_đầu nghĩ , và đây chính_xác là điều tôi luôn nghĩ đến trong vài tháng gần đây khi tôi đang viết một quyển sách tôi sẽ sớm xuất_bản , như một bước_đi đầy nguy_hiểm , đáng sợ tiếp sau sự thành_công quái_đản của tôi vừa_rồi .
+và tôi phải luôn tự nhắc_nhở bản_thân mỗi khi tôi căng_thẳng về chuyện đó , là , đừng sợ_hãi .
+đừng nản_lòng .
+hãy làm công_việc của mình .
+tiếp_tục thực_hiện phần việc của mình , dù nó có thế_nào đi_nữa .
+nếu công_việc của bạn là nhảy , hãy nhảy đi .
+khi những vì thần được ấn_định trong trường_hợp của mình quyết_định để điều kỳ_diệu được xuất_hiện , dù chỉ trong 1 khoảng khắc qua những cố_gắng của bạn thôi , thì " Ole ! "
+còn nếu không , thì bạn vẫn cứ nhảy đi .
+và dù_sao cũng hãy tự " Ole ! " cho bản_thân mình .
+tôi tin_tưởng vào điều này và tôi thấy chúng_ta phải dạy nó .
+dù_sao cũng hay tự " Ole ! " cho bản_thân mình đi , đơn_giản vì sự ích_kỷ và tình_yêu bản_thân khi đã luôn cố_gắng hết_sức để làm phần việc của mình .
+cám_ơn .
+cám_ơn .
+June_Cohen : Ole !
+như chúng_ta đã biết , một trong những thú_vui tuyệt_vời của du_lịch và niềm vui của nghiên_cứu dân_tộc_học là cơ_hội được sống giữa những người không quên quá_khứ , những người vẫn cảm_nhận thấy quá_khứ của mình trong gió , sờ thấy quá_khứ trong những tảng đá đã bị nước mưa rửa sạch và nếm nó trong vị đắng của lá cây , chỉ để biết rằng những pháp_sư Jaguar vẫn tiếp_tục cuộc hành_trình ngoài Dải_Ngân_Hà , và huyền_thoại về những già_lão Inuit vẫn vang lên đầy ý_nghĩa ,
+hay ở trên dãy Himalaya , những nhà_sư vẫn theo_đuổi con đường Phật pháp .
+khi nói về bản_chất của nhân_chủng_học , có ý_kiến cho rằng thế_giới chúng_ta đang sống không hề tồn_tại một_cách tuyệt_đối , mà chỉ là một thực_thể , kết_quả của một loạt những lựa_chọn thích_nghi cụ_thể mà tổ_tiên chúng_ta đã chọn thành_công cách đây rất nhiều thế_hệ .
+và tất_nhiên , tất_cả chúng_ta đều trải qua quá_trình phát_triển và thích_nghi như nhau .
+chúng_ta đều được sinh ra rồi lại sinh con_đẻ cái .
+chúng_ta cùng phải trải qua những nghi_lễ đầu đời .
+chúng_ta cùng phải đối_mặt với sự chia_ly không_thể tránh khỏi của cái chết , do đó không hề ngạc_nhiên khi chúng_ta đều hát , đều nhảy , và trong mỗi người đều có nghệ_thuật .
+nhưng điều thú_vị lại là những phách nhịp độc_đáo của bài hát , sự nhịp_nhàng rất riêng trong vũ_điệu của mỗi nền văn_hoá , dù đó là văn_hoá của những người Penan sống trong rừng_già Borneo , hay những thầy_tu voodoo ở Haiti , hay những chiến_binh ở sa_mạc Kaisut , phía Bắc_Kenya , những pháp_sư Curandero sống trên dãy núi Andes , hay đoàn thương_nhân ở giữa lòng sa_mạc Sahara .
+đây là một người bạn mà tôi tình_cờ đi du_lịch sa_mạc cùng một tháng trước , thực_chất là một người chăn bò trên sườn Qomolangma , đỉnh Everest , mẹ thần_thánh của thế_giới .
+tất_cả những con_người này dạy cho chúng_ta rằng có rất nhiều cách khác nhau để sống , để suy_nghĩ , để định_hướng bản_thân trên Trái_đất này .
+và đó là một ý_tưởng mà nếu bạn nghĩ về nó , sẽ mang lại cho bạn hy_vọng Giờ_đây , vô_số nền văn_hoá cùng tồn_tại trên thế_giới tạo thành một mạng_lưới đời_sống tinh_thần và đời_sống văn_hoá bao_bọc hành_tinh này , điều này thực_sự quan_trọng với sự tồn_tại của hành_tinh không kém gì mạng_lưới sinh_thái mà chúng_ta biết đến với tên gọi là sinh_quyển .
+và bạn có_thể định_nghĩa mạng_lưới đời_sống văn_hoá này như một sinh_quyển dân_tộc và bạn có_thể định_nghĩa sinh_quyển dân_tộc như một tổng_hoà của tất_cả những suy_nghĩ , ước_mơ , huyền_thoại , ý_tưởng , cảm_hứng , trực_giác được tạo ra bởi trí tưởng_tượng con_người kể từ khi có sự xuất_hiện của ý_thức .
+sinh_quyển dân_tộc là một truyền_thuyết vĩ_đại của nhân_loại .
+đó là biểu_tượng của tất_cả những gì chúng_ta có và tất_cả những gì chúng_ta có_thể làm như một giống loài ham học_hỏi .
+và khi sinh_quyển bị xói_mòn nghiêm_trọng , thì sinh_quyển dân_tộc cũng thế và có_thể ở một tốc_độ nhanh hơn .
+chẳng_hạn , không một nhà sinh_vật_học nào dám cho rằng có tới 50 % số loài sinh_vật hoặc hơn đã và đang đứng trên bờ vực tuyệt_chủng vì đơn_giản là điều này không đúng , ngay cả trong hoàn_cảnh huỷ_diệt nhất của vương_quốc sinh_học đa_dạng .
+cũng rất khó để kết_luận những gì ta biết là viễn_cảnh lạc_quan nhất của thế_giới văn_hoá muôn màu .
+và dấu_hiệu rõ_ràng nhất tất_nhiên là ngôn_ngữ mất đi .
+khi mỗi chúng_ta trong căn phòng này được sinh ra , có khoảng 6000 ngôn_ngữ đang tồn_tại trên hành_tinh .
+giờ_đây , ngôn_ngữ không chỉ là chủ_thể của từ_vựng hay là một bộ quy_tắc ngữ_pháp .
+ngôn_ngữ là sự_thể_hiện của tinh_thần con_người .
+đó là phương_tiện mà linh_hồn của mỗi nền văn_hoá được chuyển đến thế_giới vật_chất .
+mỗi ngôn_ngữ là một khu rừng phát_triển lâu_đời , một bước_ngoặt , một ý_tưởng , một hệ sinh_thái của năng_lực tinh_thần .
+và khi chúng_ta ngồi đây , hôm_nay , ở Montery , trong số 6000 ngôn_ngữ đấy , một nửa đã hoàn_toàn biến mất .
+những ngôn_ngữ này không còn được dạy lại cho những đứa trẻ , điều này gần như có_nghĩa rằng những ngôn_ngữ này đã chết .
+liệu còn có_điều gì có_thể cô_đơn hơn bị cô_lập trong im_lặng , trở_thành người cuối_cùng của dân_tộc nói ngôn_ngữ của mình , và không có cách nào truyền lại trí_tuệ tổ_tiên hay dự_đoán tương_lai của những đứa trẻ ?
+và định_mệnh nghiệt_ngã đó cũng là cảnh_ngộ của một_vài người , ở đâu_đó trên Trái_Đất cứ mỗi hai tuần lại xảy ra một lần vì cứ mỗi hai tuần , lại có một già_lão chết đi và mang theo xuống mồ những âm_tiết cuối_cùng của một ngôn_ngữ cổ_đại .
+và tôi biết sẽ có một ai đó trong số các bạn nói rằng , " biết_đâu như_thế lại tốt hơn ?
+biết_đâu thế_giới lại tốt hơn nếu_như chúng_ta cùng nói_chung một ngôn_ngữ " Và tôi sẽ nói , " Tuyệt_vời , hãy_chọn ngôn_ngữ đó là tiếng Yoruba . hãy_chọn ngôn_ngữ đó là tiếng Quảng_Đông .
+hãy_chọn ngôn_ngữ đó là tiếng Kogi . "
+và bạn sẽ đột_nhiên nhận ra rằng sẽ như thế_nào nếu không_thể nói ngôn_ngữ của chính mình .
+và do đó , điều mà tôi muốn làm cùng các bạn ngày hôm_nay là đưa các bạn đi tham_quan một vòng sinh_quyển dân_tộc - một chuyến đi ngắn để cố_gắng cho các bạn một cái nhìn về thực_tế điều gì đang mất đi .
+hiện_nay , có rất nhiều người trong số chúng_ta đã quên rằng khi tôi nói " nhiều cách sống khác nhau . "
+tôi thực_sự nói rằng có rất nhiều cách sống khác nhau .
+hãy lấy đứa trẻ dân_tộc Barasana sống ở Tây_Bắc vùng Amazone làm ví_dụ , dân_tộc của trăn anaconda những người tin rằng trong thần_thoại họ đã từng đi qua dòng sông sữa từ phía Đông bên trong bụng của những con rắn thần .
+cho đến bây_giờ , đây là một dân_tộc mà trong nhận_thức không phân_biệt giữa màu xanh da_trời và màu xanh lá cây vì theo họ , vòm_trời cũng tương_tự như vòm lá nơi mà cả dân_tộc trông_cậy .
+họ có một tục kết_hôn và ngôn_ngữ kỳ_lạ được gọi là chế_độ ngoại_hôn ngôn_ngữ : bạn phải lấy một người nói ngôn_ngữ khác .
+điều này bắt_nguồn từ quá_khứ xa_xưa , mang đến điều thú_vị là trong những căn nhà_dài , nơi có 6 hoặc 7 ngôn_ngữ được nói , nhờ chế_độ hôn_nhân đặc_biệt , bạn sẽ không bao_giờ nghe thấy một ai tập nói một thứ ngôn_ngữ nào .
+họ chỉ đơn_giản là nghe và học nói theo .
+hay , một trong những bộ_tộc thú_vị nhất mà tôi từng sống , bộ_tộc Waorani ở Đông_Bắc_Ecuador , một bộ_tộc lần đầu_tiên tiếp_xúc một_cách hoà_bình với thế_giới bên ngoài vào năm 1958 .
+năm 1957 , 5 người truyền_giáo đã cố_gắng tiếp_xúc nhưng đã có một sai_lầm nghiêm_trọng .
+họ thả xuống từ trên không những bức ảnh 8 x 10 của mình theo cách mà chúng_ta vẫn cho là cử_chỉ thân_thiện , mà quên mất rằng những con_người của rừng mưa nhiệt_đới này chưa từng thấy cái gì 2 chiều trong đời .
+họ nhặt những tấm ảnh này trên đất , cố_gắng nhìn phía sau những khuôn_mặt này để tìm ra hình_dạng , nhưng không tim thấy gì và kết_luận rằng đây là những lá bài gọi tên từ quỷ_sứ , do_vậy họ đã đâm 5 nhà truyền_giáo này đến chết .
+tuy_nhiên , bộ_tộc Waorani không chỉ đâm người_ngoài .
+họ còn đâm lẫn nhau .
+54 % cái chết của họ là do đâm nhau bằng giáo .
+chúng_ta hãy cũng lật lại phả_hệ 8 đời , và chúng_ta thấy rằng có 2 trường_hợp chết tự_nhiên và khi chúng_ta hỏi dồn họ một_chút về vấn_đề này , họ thừa_nhận rằng một trong những người bạn đã trở_nên quá già và đằng nào họ cũng chết già nên chúng_ta đâm họ trước còn hơn . nhưng cùng lúc đó họ cũng có một tri_thức tuyệt_vời về rừng nhiệt_đới .
+những người thợ_săn của bộ_tộc có_thể ngửi thấy mùi nước_tiểu của động_vật trong phạm_vi 40 bước và cho bạn biết đó là loài động_vật nào .
+trong những năm đầu của thập_niên 80 , tôi đã từng có một bài_tập thú_vị do giáo_sư của tôi ở ĐH Harvard yêu_cầu nếu_như tôi muốn đến Haiti , tìm_hiểu xã_hội bí_mật là nền_móng cho sức_mạnh của Duvalier và Tonton_Macoutes , và tìm_hiểu chất_độc được sử_dụng để tạo ra những thây_ma .
+và để tìm_hiểu mọi chuyện , tất_nhiên , tôi phải hiểu đôi_chút về niềm tin đáng chú_ý này của Vodoun , và voodoo không phải là một tà_thuật .
+trái_lại , nó là một nhân sinh_quan siêu_hình phức_tạp .
+nó thật thú_vị .
+nếu tôi yêu_cầu các bạn kể tên những tôn_giáo vĩ_đại nhất trên thế_giới bạn sẽ trả_lời thế_nào ?
+thiên Chúa_Giáo , đạo Hồi , Phật_giáo , đạo Do_Thái , v . v .
+vẫn luôn có một lục_địa còn lại ngoài kia , có một giả_tưởng cho rằng Phi_Châu , vùng Sahara không có tín_ngưỡng tôn_giáo . vâng , tất_nhiên , họ có và voodoo đơn_giản chỉ là một sản_phẩm kết_tinh của những ý_tưởng tôn_giáo uyên_thâm đã trải qua giai_đoạn nô_lệ đầy bi_kịch của cộng_đồng Do_Thái .
+nhưng , điều làm cho voodoo thú_vị chính là mối quan_hệ tồn_tại giữa người sống và người chết .
+theo đó , người sống sinh ra những linh_hồn .
+những linh_hồn này có_thể hiển_linh từ dưới Dòng nước vĩ_đại , đáp lại nhịp của các vũ_điệu để trong một phút nào đó nó sẽ thay_thế linh_hồn của người sống , trong khoảnh_khắc toả sáng ngắn_ngủi ấy , thầy_tu trở_thành thần_thánh .
+đó là lý_do tại_sao những phù_thuỷ voodoo nói rằng " Những người da trắng các anh đi đến nhà_thờ và nói về Chúa .
+chúng_tôi nhảy_múa trong đền thờ và trở_thành Thần . "
+và bởi_vì các anh bị chiếm_hữu , bị dẫn_dắt bởi các linh_hồn , Làm_sao các anh có_thể gặp nguy_hiểm ?
+do đó các bạn có_thể thấy từ những minh_hoạ này : các thầy_tu voodoo ở trong trạng_thái xuất_thần tay_cầm than hồng đang cháy mà không sao , một ví_dụ khá thú_vị cho thấy khả_năng của trí_óc có_thể ảnh_hưởng tới cơ_thể chứa nó khi trí_óc trong trạng_thái hưng_phấn cực_độ .
+hiện_giờ , trong số tất_cả các dân_tộc tôi từng sống cùng , dân_tộc đặc_biệt nhất là Kogi sinh_sống ở vùng Sierra_Nevada de Santa_Marta , phía Bắc_Colombia .
+hậu_duệ của nền văn_minh chuyên_chế cổ_đại từng chiếm vùng đồng_bằng duyên_hải Caribbean của Colombia trong giai_đoạn mở_đầu của cuộc chinh phạt , những người này đã phải rút_lui vào trong một ngọn núi_lửa bị cô_lập sừng_sững vươn cao phía trên vùng duyên_hải Caribbean .
+trong một lục_đĩa đẩm máu , dân_tộc này chưa bao_giờ bị thống_trị bởi người Tây_Ban Nha .
+cho đến nay , họ vẫn bị cai_trị bởi thầy_tu tế nhưng việc đào_tạo thầy_tu của họ cũng khá đặc_biệt .
+những thầy_tu tương_lai bị tách khỏi gia_đình lúc còn 3,4 tuổi bị cô_lập trong thế_giới của bóng_tối trong những căn nhà bằng đá nằm giữa lòng của các dòng sông băng trong suốt 18 năm ròng 2 chu_kỳ 9 năm được chọn một_cách kỹ lưởng để mô_phỏng 9 tháng thai_nghén nằm trong bụng mẹ , giờ_đây họ lại trải qua giai_đoạn biến_hoá trong bụng của Mẹ vĩ_đại .
+và trong suốt thời_gian này , họ hấp_thụ những giá_trị của xã_hội mình , những giá_trị để duy_trì lời cầu_nguyện từ các tín_đồ và chỉ những tín_đồ của họ mới là người duy_trì vũ_trụ - - chúng_ta vẫn gọi là cân_bằng sinh_thái .
+nó rất đẹp . và con phải bảo_vệ nó . "
+họ tự gọi mình là những người anh lớn và họ nói chúng_ta , những người em nhỏ , là những người chịu trách_nhiệm về sự huỷ_diệt của thế_giới .
+hiện_giờ , mức_độ nhận_thức trở_nên rất quan_trọng .
+mỗi khi chúng_ta nghĩ về những cảnh_vật và con_người bản_địa , chúng_ta có_thể lấy dẫn_chứng về Rousseau và những thông_tin lệch_lạc của tầng_lớp thượng_lưu độc_ác , nói đơn_giản là sự phân_biệt chủng_tộc , hoặc chúng_ta có_thể lấy dẫn_chứng về Thoreau và nói rằng những con_người này sống thực_tế hơn chúng_ta .
+vâng , những người bản_địa không hề uỷ_mị cũng như yếu_đuối vì lòng hoài_cổ .
+giờ thì điều đó có nghĩa_là gì ?
+điều đó có nghĩa_là một đứa trẻ ở vùng núi Andes được nuôi_nấng , dậy dỗ tin_tưởng rằng ngọn núi này là thần Apu ™ sẽ hướng_dẫn định_mệnh của chúng đứa trẻ sẽ là một con_người hoàn_toàn khác và có mối quan_hệ hoàn_toàn khác với ngọn núi nơi mà nó sinh_sống so với một đứa trẻ ở Montana được nuôi dậy tin_tưởng rằng ngọn núi là một đống đá sẵn sằng được khai_thác .
+dù đó là một nơi ở của một linh_hồn hay một đống quặng thì cũng chẳng liên_quan gì .
+điều thú_vị ở đây là sự ẩn_dụ định_nghĩa mối quan_hệ giữa cá_nhân và thế_giới tự_nhiên .
+bạn sẽ bắt_đầu hiểu một_số phát_hiện đặc_biệt của họ . hãy nhìn vào cái cây này .
+đây là một bức ảnh tôi chụp ở vùng Tây_Bắc Amazone tháng 4 vừa_qua .
+đây là cây vông đồng ayahuasca mà rất nhiều người trong số các bạn đã từng nghe tới , loài cây dùng để cúng_lễ trong nghi_lễ của các pháp_sư .
+điều tạo nên sự thú_vị của loài cây ayahuasca này không phải là thành_phần dược chất mạnh_mẽ , mà chính là quá_trình điều_chế . nó được làm từ hai nguồn khác nhau .
+một mặt , đây là loài dây_leo gỗ mà trong đó có rất nhiều beta - carbolines harmine , harmonline , và một_ít chất gây ảo_giác .
+nếm thử một_chút cây_leo sẽ có một_ít khói xanh mờ ngấm vào tâm_trí bạn , tuy_nhiên cây_leo sẽ được trộn với lá của cây_bụi thuộc họ café có tên gọi Psychotria viridis .
+loại cây này có chứa một_ít tryptamines cực mạnh , rất gần với chất serotonin , dimethyltryptamine - 5 , methoxydimethyltryptamine trong não .
+trên thực_tế , tôi đã từng tranh_luận với giáo_sư của mình , ông Richard Evan_Shultes - - người đã từng tạo ra thời_kỳ ảo_giác với việc phát_minh ra loại nấm kỳ_diệu ở Mexico những năm 1930 .
+tôi đã từng cho rằng bạn không_thể xếp các loại tryptamines như_chất gây ảo_giác bởi_vì tại thời_điểm bạn chịu ảnh_hưởng của thuốc không còn có ai ở nhà nữa để trải nghiệm ảo_ảnh . nhưng một điều về các loại tryptamines này là không_thể uống chúng bởi chúng sẽ bị trung_hoà bởi một loại enzyme tồn_tại tự_nhiên trong ruột người có tên gọi monoamine oxidase .
+chúng chỉ có_thể có tác_dụng nếu được uống cùng với một_số loại hoá_chất làm biến_đổi MAO.
+và điều kỳ_diệu là chất beta - carbolines được tìm thấy trong loại dây_leo đó đều là chất ức_chế hoàn_toàn mao để tăng khả_năng cho tryptamine . do đó nếu bạn có tự hỏi một câu .
+làm thế_nào trong cả quần thực_vật gồm hơn 80.000 loại cây khác nhau , những người này lại có_thể tìm ra 2 loại cây chẳng liên_quan gì về mặt hình_thái vậy_mà khi liên_kết với nhau , lại tạo ra một phiên_bản sinh_hoá mà xét một_cách tổng_thể còn lớn hơn tổng các thành_phần ?
+vâng , chúng_ta sẽ sử_dụng lối nói ẩn_dụ , phương_pháp loại_trừ , có vẻ như vô_nghĩa , bởi nếu bạn hỏi người Ấn_Độ , họ sẽ nói , " cây_cỏ nói cho chúng_tôi biết . "
+vậy , điều đó có nghĩa_là gì ?
+bộ_tộc này , những người Cofan , có tổng_cộng 17 loại ayahuasca khác nhau , mỗi loại này ở trong rừng lại rất khác nhau , và tất_cả các loại này dưới mắt quan_sát của chúng_ta đều được coi là một loài .
+và sau đó bạn hỏi họ làm thế_nào để phân_loại và họ sẽ nói , " Tôi nghĩ anh biết chút_ít về thực_vật .
+ý của tôi là , anh có biết chút gì không ? " và tôi trả_lời , " Không . "
+vâng , vậy anh phải lấy từng loại trong 17 loại vào mỗi tối trăng_tròn , mỗi loại sẽ hát cho anh nghe một bài hát khác .
+điều này sẽ không giúp bạn có bằng tiến_sĩ ở ĐH Harvard , nhưng nó thú_vị hơn nhiều so với việc đếm nhị hoa .
+bây_giờ , vấn_đề - - vấn_đề là ngay cả khi chúng_ta đồng_cảm với hoàn_cảnh khó_khăn của những người bản_địa coi họ là kỳ_quặc và đa_dạng ở khía_cạnh nào đó đã làm chậm lịch_sử vì thế_giới thực_sự , thế_giới của chúng_ta , vẫn tiếp_tục vận_động .
+vâng , sự_thật là thế_kỷ 20 , 300 năm nữa , sẽ không được nhớ đến vì các cuộc chiến_tranh hay những cuộc cách_mạng công_nghệ , kỷ_nguyên mà chúng_ta đã sống , dù chủ_động tham_gia hoặc chấp_nhận một_cách bị_động , sẽ được nhớ đến với sự mất_mát to_lớn của cả sự đa_dạng sinh_học lẫn đa_dạng văn_hoá trên hành_tinh này . đến nay , vấn_đề vẫn chưa được thay_đổi .
+tất_cả các nền văn_hoá trải qua thời_gian đều tham_gia vào điệu nhảy với nhiều triển_vọng của cuộc_sống .
+và vấn_đề không phải là công_nghệ .
+những người Ấn_Độ Sioux vẫn là người Sioux khi họ từ_bỏ cung tên cũng giống như người Mỹ vẫn là người Mỹ ngay cả khi anh ta từ_bỏ ngựa và xe độc mã .
+thay_đổi hay công_nghệ không đe_doạ đến sự hợp_nhất của sinh_quyển dân_tộc . đó là quyền_lực .
+bộ_mặt trần_trụi của sự thống_trị .
+và khi bạn nhìn khắp thế_giới , bạn nhận ra rằng đó không phải là những nên văn_hoá_sinh ra để biết mất .
+đó là những con_người đang sống nhưng bị làm cho không còn tồn_tại bởi những lực_lượng có_thể nhận_biết mà nằm ngoài giới_hạn thích_nghi của họ .
+hay trong trường_hợp của bộ_tộc Yanomami , dịch_bệnh xuất_hiện , cùng với việc phát_hiện ra vàng .
+hay nếu chúng_ta đến với vùng núi Tibet , nơi tôi đã thực_hiện rất nhiều nghiên_cứu trong thời_gian gần đây , bạn sẽ thấy một bộ_mặt trần_trụi của sự thống_trị chính_trị .
+như bạn biết , sự diệt chủng , xoá_sổ hoàn_toàn một dân_tộc về mặt sinh_học bị lên_án trên toàn thế_giới , nhưng việc xoá sổ một dân_tộc , bằng cách phá_huỷ cách sống của con_người , lại không bị kết_án , mà thậm_chí còn được hoan_nghênh như một phần của chiến_lược phát_triển .
+và bạn sẽ không_thể hiểu nổi nỗi đau của người Tibet cho đến khi bạn trải qua nó dưới lòng đất .
+tôi đã từng đi 6.000 từ Thành_Đô phía Tây_Trung_Quốc_qua Đông_Nam_Tibet tới Lhasa với một đồng_nghiệp trẻ , và chỉ khi tới Lhasa tôi mới hiểu sự_thật đằng sau những con_số thống_kê mà các bạn vẫn hay nghe .
+6.000 điểm kỷ_niệm đã biến thành tro bụi .
+1,2 triệu người đã chết trong chiến_tranh giai_đoạn Cải_cách Văn_hoá .
+bố của người thanh_niên này đã bị cho là Ban Thiền_Lạt Ma .
+điều đó có_nghĩa rằng ông bị giết ngay tức_khắc ngay khi Trung_Quốc xâm_lược .
+chú của anh bỏ chạy cùng sự tôn_thờ của cộng_đồng Do_Thái đưa cả dân_tộc tới Nepal .
+mẹ anh đã bị tống_giam như một cái giá - - phải trả cho tội giàu_có .
+bản_thân anh cũng bị tống vào ngục khi mới chỉ 2 tuổi và phải ấn nấp dưới đuôi váy của chị gái bởi_vì chị không_thể chịu được cảnh sống mà không có anh .
+người chị gái có việc_làm dũng_cảm ấy đã bị tống vào trại cải_tạo .
+một ngày_kia cô vô_tình_dẫm phải băng tay của Mao_Trạch Đông , và vì sự vi_phạm đó , cô phải chịu án 7 năm khổ sai .
+nỗi đau của những người Tibet là không_thể chịu_đựng được , nhưng tinh_thần bất_khuất của họ thất đáng chú_ý .
+và cuối_cùng , nó dẫn đến một lựa_chọn .
+chúng_ta muốn sống trong một thế_giới đơn_sắc buồn_tẻ hay muốn hoà_mình trong một thế_giới đa_dạng , đa sắc_màu ?
+và thật xấu_hổ khi nhớ rằng giống loài của chúng_ta , có_lẽ , đã tồn_tại 600.000 năm .
+cách_mạng đồ đá đã mang lại cho chúng_ta nông_nghiệp , cũng là lúc chúng_ta phụ_thuộc vào hạt_giống , bài thơ của những pháp_sư đã được thay_thế bởi bài cúng_tế của những thầy_tu tế , chúng_ta đã tạo ra sự chênh_lệch giai_cấp - - từ cách đây 10.000 năm .
+thế_giới công_nghiệp hiện_đại như chúng_ta biết cũng chỉ mới gần 300 tuổi .
+giờ_đây , lịch_sử nông_cạn đó không hề cho tôi thấy rằng chúng_ta có tất_cả các câu trả_lời cho mọi thử_thách mà chúng_ta sẽ gặp phải trong thiên_niên_kỷ này .
+khi hỏi những nền văn_hoá của thế_giới về ý_nghĩa của loài_người , họ sẽ trả_lời với 10.000 giọng nói khác nhau .
+và trong bản hoà ca đó , tất_cả chúng_ta sẽ tái_phát_hiện khả_năng tồn_tại của mình ; một dòng_giống hoàn_toàn làm_chủ ý_thức , có nhận_thức đầy_đủ để bảo_đảm rằng tất_cả con_người và thực_vật sẽ tìm ra cách để phát_triển . và có những khoảnh_khắc tuyệt_vời của sự lạc_quan .
+đây là một bức ảnh tôi chụp ở điểm cực bắc Đảo Baffin khi tôi đang đi săn kỳ_lân với một_số người Inuit , và người đàn_ông này , Olaya , đã kể cho tôi một câu_chuyện tuyệt_vời về ông nội ông .
+chính_quyền Canada không phải lúc_nào cũng tốt với người dân Inuit , và trong suốt những năm 1950 , để thiết_lập sự thống_trị , chúng_ta đã ép họ vào những khu định_cư .
+ông nội của người đàn_ông này đã từ_chối không đi .
+gia_đình , vì muốn ông cùng đi , đã lấy tất_cả vũ_khí và dụng_cụ của ông .
+bây_giờ , chắc_chắn các bạn phải hiểu rằng người Inuit không sợ cái lạnh ; họ lợi_dụng nó .
+phần bánh trượt xe trượt_tuyết của họ vốn được làm_bằng cá bọc trong da tuần luộc caribou .
+do đó , ông của người đàn_ông này không phải chịu sự đe_doạ của đêm Bắc cực giá_rét hay bão_tuyết thổi qua .
+ông chỉ đơn_giản là trượt ra ngoài , tụt chiếc quần da hải_cẩu xuống và đại_tiện vào tay . và khi đống phân bắt_đầu đông lại , ông nặn nó thành_hình một thanh gươm .
+ông nhổ một_ít nước_bọt vào cán con dao bằng phân và cuối_cùng nó cũng đông cứng lại , ông xẻ thịt một con chó bằng con dao này .
+ông lột da con chó và làm một bộ yên cương , lấy xương con chó và tạo thành một chiếc xe trượt , đóng yên cương một con chó gần đấy , và biết mất khỏi tảng băng nổi , với con dao phân dắt ở thắt_lưng .
+và đi khỏi mà không cần mang theo thứ gì . và điều này , theo nhiều cách khác nhau , là biểu_tượng đấu_tranh của người Inuit và tất_cả những bộ_tộc trên thế_giới .
+vào tháng 4 năm 1999 , chính_quyền Canada đã phải trao_trả hoàn_toàn_quyền tự_trị cho người Inuit trao cho họ diện_tích đất lớn hơn California và Texas cộng lại .
+đó là quê_hương mới của chúng_ta . nó có tên gọi Nunavut .
+đó là một lãnh_thổ độc_lập . họ kiểm_soát tất_cả các nguồn tài_nguyên khoáng_sản .
+một ví_dụ thú_vị về cách một quốc_gia có_thể vươn tới - - tìm cách bồi_thường cho người dân của họ .
+và cuối_cùng , tôi nghĩ đã quá rõ_ràng với ít_nhất là tất_cả chúng_ta những người đến từ vùng_xa_xôi hẻo_lánh trên hành_tinh , để nhận ra rằng chúng không hề xa_xôi hẻo_lánh chút nào .
+đó là quê_hương của một ai đó .
+họ đại_diện cho một nhánh của trí tưởng_tượng con_người đã có từ rất lâu . và với tất_cả chúng_ta , ước_mơ của những đứa trẻ này , cùng giống như ước_mơ của những đứa con chúng_ta , trở_thành một phần của hy_vọng Do đó , điều chúng_tôi đang cố_gắng làm trên kênh National_Geographic , chỉ là , chúng_tôi tin rằng các chính_trị_gia chẳng làm được gì cả .
+chúng_tôi nghĩ rằng cuộc luận_chiến - - Chúng_tôi nghĩ rằng cuộc luận_chiến không thuyết_phục , nhưng chúng_tôi nghĩ rằng kể chuyện có_thể thay_đổi thế_giới , và chúng_tôi có_thể là những nhà kể chuyện hay nhất thế_giới . chúng_tôi có 35 triệu lượt truy_cập trên website mỗi tháng .
+156 quốc_gia tiếp sóng kênh truyền_hình của chúng_tôi .
+hàng_triệu người đón đọc tạp_chí của chúng_tôi .
+xin cảm_ơn rất nhiều .
+nắm ngoái , cũng tại đây tôi đã giới_thiệu về LHC .
+và tôi cũng hứa sẽ trở_lại và cung_cấp cho các bạn các thông_tin cập_nhật về cách chiếc máy này hoạt_động .
+vì_vậy , đây chính là nó . cho những người không có_mặt năm_ngoái , thì LHC là thí_nghiệm khoa_học lớn nhất từng được thực_hiện - - chu_vi 27 Km .
+công_việc của nó là tái_tạo lại các điều_kiện , đã có_mặt ít hơn một phần_tỷ của một giây sau khi vũ_trụ bắt_đầu - - lên tới 600 triệu lần một giây .
+đó là một tham_vọng rất lớn .
+đây là chiếc máy nằm dưới thành_phố Geneva , Thuỵ_Sĩ .
+chúng_tôi chụp các bức hình của các vụ nổ Big_Bang nhỏ trong các thiết_bị phân_tích .
+tôi đang làm_việc với chiếc máy này . nó có tên máy phân_tích Atlas - - rộng 44 mét , 22 mét đường_kính .
+đây là một bưc ảnh hùng_vĩ của Atlas khi được xây_dựng Vì_vậy bạn có_thể thấy quy_mô của nó .
+vào ngày 10 tháng 9 năm_ngoái chiếc máy được khởi_động lần đầu_tiên .
+và bưc hình này được chụp bởi ATLAS.
+nó là nguyên_nhân cho một lễ kỷ_niệm lớn trong phòng điều_khiển .
+nó là tấm hình của chùm hạt đầu_tiên đi hết một quãng đường quanh LHC , va_chạm có tính_toán với một phần của LHC , và phun chùm hạt vào trong máy phân_tích .
+nói cách khác , khi chúng_tôi thấy bức hình đó vào ngày 10 tháng 9 chúng_tôi biết rằng chiếc máy đã hoạt_động , đó là một thành_tựu vĩ_đại .
+tôi không biết liệu điều này đã nhận được sự cổ_vũ lớn nhất , hay cái này , khi một ai đó vào Google và thấy trang đầu là như thế .
+nó có nghĩa_là chúng_tôi đã làm ảnh_hưởng văn_hoá cúng như tác_động khoa_học .
+khoảng 1 tuần sau đó chúng_tôi đã có một vấn_đề với chiếc máy , Liên_quan tới các đoạn dây này - - những chiếc dây này làm_bằng vàng .
+nó truyền_dẫn dòng_điện lên tới 13 nghìn amps khi chiếc máy làm_việc hết công_suất .
+bây_giờ các kỹ_sư trong số các bạn sẽ nhìn chúng và nói , " Chúng không_thể làm được . chúng là các sợi dây quá nhỏ . "
+nhưng chúng có_thể làm được bởi_vì khi chúng ở nhiệt_độ rất lạnh chúng hoạt_động như các dây làm bằng vật_liệu siêu_dẫn .
+vì_vậy tại nhiệt_độ âm 271 độ , Lạnh hơn cả không_gian giữa các ngôi_sao , những chiếc dây đó có_thể dẫn dòng lơn như_vậy .
+trong một khớp nối giữa trên 90 ngàn nam_châm trong LHC , đã có một lỗi sản_xuất .
+vì_vậy dây bị nóng lên một_chút , và dòng 13 ngàn amps đột_ngột gặp phải trở kháng điện .
+đây là hậu_quả .
+bây_giờ , sẽ ấn_tượng hơn khi bạn để_ý rằng những nam_châm đó nặng trên 20 tấn , và chúng bị dịch đi khoảng 1 foot Vì_vậy , chúng_tôi bị thiệt_hại khoảng 50 nam_châm .
+chúng_tôi đã phải đưa chúng ra .
+chúng_tôi tu_sửa chúng , cố_định chúng .
+chúng đang được đưa trở_lại đúng vị_trí .
+đến cuối tháng ba LHC sẽ lại trở về nguyên_vẹn .
+chúng_tôi sẽ khởi_động nó , và mong rằng có_thể lấy dữ_liệu trong tháng 6 hoặc 7 , và tiếp_tục với việc điều_tra của chúng_tôi để tìm ra những khối nào tạo thành vũ_trụ .
+dĩ_nhiên hiện_nay trong cách mà các tai_nạn đó kích_thích lại những cuộc tranh_luận về giá_trị của khoa_học và kỹ_thuật . thật dễ_dàng để bác_bỏ .
+theo tôi thực_tế là nó quá khó , thực_tế là chúng_ta đang vượt quá xa , giá_trị của những thứ như LHC.
+không có thế_giới mới để chinh_phục . " cảm_ơn .
+vỗ_tay Năm_ngoái tôi đã trình_chiếu 2 slides để minh_hoạ cho chỏm băng Bắc_Cực , là chỏm băng mà suốt 3 triệu năm qua từ kích_cỡ bằng 48 bang nay nó đã giảm đi 40 % .
+nhưng điều này đã nói giảm đi sự nghiêm_trọng của vấn_đề vì nó không cho biết độ dày của lớp băng .
+một mặt , chỏm băng Bắc_Cực là quả tim đập không ngừng của hệ_thống khí_hậu toàn_cầu .
+nó mở_rộng vào mùa đông và giảm đi vào mùa hè .
+slide tiếp_theo mà tôi chiếu sẽ là những biến_đổi cực nhanh của những điều đã xảy ra trong vòng 25 năm qua .
+vùng băng vĩnh_cửu được đánh_dấu bằng màu đỏ .
+như bạn thấy , nó mở_rộng ra vùng màu xanh đậm .
+đó là băng hàng năm vào mùa đông .
+và nó giảm đi vào mùa hè .
+cái gọi là băng vĩnh_cửu , có tuổi từ 5 năm trở lên , bạn có_thể thấy chủ_yếu như màu máu , tràn khắp vùng này .
+trong vòng 25 năm , nó đã từ như thế này trở_thành như_vậy .
+đây là vấn_đề bởi sự nóng lên đã nung lớp đất nền đóng_băng xung_quanh Bắc Băng_Dương nơi có một lượng carbon đóng_băng khổng_lồ mà khi tan ra , nó sẽ bị vi_khuẩn biến thành metan .
+so với tổng_lượng ô_nhiễm trong không_khí gây nên hiện_tượng nóng lên toàn_cầu , lượng này có_thể tăng gấp đôi nếu chúng_ta vượt qua ngưỡng bùng_phát .
+ở một_số hồ nông ở Alaska metan nổi thành các bóng khí trên mặt hồ .
+mùa đông năm_ngoái , giáo_sư Katey_Walter từ Đại_học Alaska đã cùng với một nhóm tới khảo_sát ở hồ nông này .
+video : Whoa ! Al_Gore : cô ta không bị gì cả . câu hỏi đặt ra là liệu chúng_ta có như_thế không .
+và một lý_do là , lượng nhiệt khổng_lồ này chìm xuống làm nóng đảo Greenland từ phía Bắc .
+đây là một con sông tạo nên do băng tan hàng năm .
+nhưng hiện_nay lượng băng tan đã nhiều hơn bao_giờ hết .
+đây là sông Kangerlussuaq ở Tây_Nam_Greenland .
+nếu bạn muốn biết mực nước biển dâng ra sao từ băng trên nền đất tan chảy thì đây là nơi nó chảy ra biển .
+những dòng_chảy này đang ngày_càng tăng nhanh hơn .
+ở cực khác của địa_cầu , Nam_Cực là nơi có lượng băng lớn nhất hành_tinh .
+tháng trước , các nhà khoa_học đã báo_cáo rằng trên toàn lục_địa này mức cân_bằng của lượng băng hiện đang ở mức đáng lo_ngại .
+và phía Tây Nam_Cực với những hòn đảo ngầm hiện đang tan với tốc_độ cực nhanh .
+bằng khoảng 20 feet so với mực nước biển , giống như Greenland .
+ở Himalayas , vùng băng lớn thứ ba thế_giới , trên đỉnh này , bạn có_thể thấy các hồ mới được tạo , mà cách đây vài năm , chúng vẫn là các sông băng .
+một nửa lượng nước mà 40 % dân_cư trên thế_giới đã uống là lấy từ con sông băng này .
+ở Andes , sông băng này là nguồn nước uống cho thành_phố .
+lượng băng tan ngày_càng tăng .
+nhưng khi chúng cạn_kiệt , thì nước uống cũng không còn .
+ở California , núi_băng Sierra đã giảm 40 % .
+nó đang biến thành các bể nước .
+và các dự_báo , như các bạn đã đọc , rất nghiêm_trọng .
+hạn_hán khắp thế_giới đã dẫn tới nạn cháy rừng tăng cao .
+và dịch_bệnh hoành_hành khắp thế_giới đã tăng lên một_cách chóng_mặt với tốc_độ chưa từng thấy .
+trong vòng 30 năm , nó đã tăng 4 lần so với 75 năm trước .
+đây là mô_hình hoàn_toàn không bền_vững .
+nếu xem bối_cảnh lịch dử bạn có_thể thấy ý_nghĩa của biểu_đồ này .
+trong vòng năm năm qua mỗi 24 giờ , chúng_ta lại thải thêm 70 triệu tấn CO2 - - 25 triệu tấn mỗi ngày bị thải ra đại_dương .
+hãy nhìn kỹ vùng phía Đông của Thái_Bình_Dương , từ châu Mỹ , mở_rộng về phía Tây , và trên mặt_khác của tiểu lục_địa Ấn , đây là nơi có lượng oxy trong đại_dương bị giảm mạnh .
+nguyên_nhân lớn nhất gây ra hiện_tượng nóng lên toàn_cầu , cùng với việc phá rừng - - chỉ bằng 20 % của nó , là việc đốt cháy nhiên_liệu hoá_thạch .
+dầu_mỏ là một vấn_đề , và than_đá là vấn_đề nghiêm_trọng nhất .
+hoa Kỳ là một trong hai nơi xả thải mạnh nhất , cùng với Trung_Quốc .
+và người_ta kiến_nghị nên xây thêm các nhà_máy dùng than làm chất_đốt .
+nhưng chúng_ta đang bắt_đầu thấy những biến_đổi diễn ra trên biển .
+đây là những nhà_máy bị ngừng hoạt_động trong những năm vừa_rồi bởi một_số kiến_nghị về môi_trường .
+tuy_nhiên ở nước ta xảy ra một cuộc_chiến chính_trị .
+và năm_ngoái , ngành công_nghiệp than và dầu_mỏ tiêu tốn khoảng 1 / 4 tỷ dollar để quảng_bá than sạch , mà thật_ra chỉ là trò ghép hai chữ trái_nghĩa .
+hình_ảnh này khiến tôi nghĩ tới một thứ .
+khoảng thời_gian Giáng_Sinh , tại nhà tôi ở Tennessee , một tỉ gallon cặn than đã bị tràn ra .
+có_thể các bạn đã xem tin đó trên báo .
+vụ tràn cặn này đã tạo nên bãi rác lớn thứ hai tại nước Mỹ .
+vụ này xảy ra gần Giáng_Sinh .
+đây là một trong những quảng_cáo cho ngành công_nghiệp than_đá vào mùa Giáng_Sinh .
+video : ♪ ♫ Bác thợ mỏ vui_vẻ yêu_đời .
+nước Mỹ chúng_ta có đầy người như bác thợ mỏ ấy và họ giúp nền kinh_tế của chúng_ta phát_triển .
+bác thợ mỏ ngày_càng sạch thêm .
+bác vừa rẻ vừa đáng yêu , bác nuôi sống các công_nhân .
+Al_Gore : đây là mỏ than lớn ở Tây_Virginia .
+mỏ than trên núi lớn nhất là đỉnh mỏ Massey .
+video : ngài Blankenship : hãy giải_thích cho tôi . Al_Gore , Nancy Peloso , Harry Reid , họ không biết mình đang nói gì .
+Al_Gore : vậy nên Liên_Minh Bảo_Vệ Khí_Hậu đã bắt_đầu hai cuộc vận_động .
+đây là một trong hai cuộc vận_động đó , một phần của cuộc vận_động .
+video : diễn_viên : tại COALergy chúng_ta đã thấy khí_hậu thay_đổi một_cách nghiêm_trọng đe_doạ công_việc của chúng_ta .
+đó là lý_do tại_sao chúng_tôi đặt mục_tiêu hàng_đầu cho mình là tiêu một khoản tiền cực lớn cho nỗ_lực quảng_cáo để làm rõ sự_thật về than .
+sự_thật là , than không hề bẩn .
+chúng_tôi cho là nó sạch - - và có vẻ tốt .
+do vậy bạn đừng lo_lắng quá về biến_đổi khí_hậu .
+cứ để đấy cho chúng_tôi .
+video : diễn_viên : than sạch , bạn đã nghe rất nhiều về nó .
+ta hãy làm một tour để tìm_hiểu về đỉnh_cao nghệ_thuật của công_nghệ than sạch nhé .
+thật ngạc_nhiên ! máy_móc có vẻ ồn_ào thật .
+nhưng đó là âm_thanh của công_nghệ than sạch .
+và mặc_dù việc đốt than là một trong những nguyên_nhân lớn nhất của hiện_tượng nóng lên toàn_cầu , thì công_nghệ than sạch tuyệt_vời mà bạn đang thấy đây đã thay_đổi mọi thứ .
+các bạn hãy nhìn kỹ nhé , đây là công_nghệ than sạch ngày_nay .
+Al_Gore : cuối_cùng , thay_đổi tích_cực khớp với những thử_thách về kinh_tế và an_ninh quốc_gia của chúng_ta .
+video : người dẫn : nước Mỹ đang khủng_hoảng về nền kinh_tế , an_ninh quốc_gia , về khí_hậu .
+mối đe_doạ của tất_cả là sự gia_tăng lượng carbon từ nhiên_liệu , chẳng_hạn như than bẩn và dầu ngoại .
+nhưng giờ_đây , đã có một giải_pháp mới để giúp chúng_ta thoát khỏi rắc_rối đó .
+tái_thiết năng_lượng nước Mỹ với 100 % điện sạch , trong 10 năm .
+một kế_hoạch đưa nước Mỹ_năng_động trở_lại , giải_quyết vấn_đề an_ninh , và nóng lên toàn_cầu .
+cuối_cùng , một giải_pháp đủ lớn để giải_quyết các vấn_đề của chúng_ta .
+tái_thiết năng_lượng nước Mỹ . hãy tìm_hiểu thêm .
+Al_Gore : đây là đoạn video cuối .
+video : người dẫn : đây là vấn_đề tái_thiết năng_lượng cho nước Mỹ .
+một trong những cách nhanh_chóng nhất là chấm_dứt sự lệ_thuộc vào nhiên_liệu bẩn vốn đang xâm_hại hành_tinh chúng_ta .
+tương_lai vẫn ở phía trước . phong điện , năng_lượng mặt_trời , cả một mạng_lưới mới .
+có những đầu_tư mới để tạo ra các công_việc lương cao .
+người dẫn : tái_thiết năng_lượng cho nước Mỹ . đã đến lúc thành sự_thật .
+Al_Gore : người châu Phi có một câu ngạn_ngữ , " Nếu muốn đi nhanh , bạn hãy đi một_mình .
+nếu muốn đi được xa , hãy đi cùng nhau . "
+chúng_ta cần phải đi xa , nhanh_chóng .
